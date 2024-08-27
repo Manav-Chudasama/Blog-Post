@@ -1,0 +1,117 @@
+.create-post {
+    width: fit-content;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.create-post {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .create-post {
+        width: -webkit-calc(100% - 20px) !important;
+    }
+} */
+
+.create-post label {
+    color: black;
+}
+
+.create-post .heading {
+    font-size: 24px;
+    color: black;
+    ;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.create-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post label {
+    margin-bottom: 10px;
+}
+
+.create-post textarea {
+    margin: auto;
+    resize: none;
+    height: 80px;
+    width: 550px;
+}
+
+.create-post input,
+.create-post textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.create-post input:focus,
+.create-post textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6384;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.create-post button[type="submit"] {
+    background-color: #ff6384;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-post button[type="submit"]:hover {
+    transform: scale(1.050);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container {
+    /* margin-top: 100px; */
+    max-width: 300px;
+    margin-left: 9px;
+    padding: 20px 0;
+    /* background-color: #13121269;  */
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.inpdddut[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #1aa3bb;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.inpdddut[type="submit"] {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inpdddut[type="submit"]:hover {
+    background-color: #006F8F;
+}

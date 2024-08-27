@@ -1,0 +1,22 @@
+.home-input textarea {
+    margin: auto;
+    resize: none;
+    height: 80px;
+    width: 550px;
+}
+
+.home-input input,
+.home-input textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.home-input input:focus,
+.home-input textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6384;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
